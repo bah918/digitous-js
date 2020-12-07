@@ -18,4 +18,22 @@ var basicUp = basic.toUpperCase();
 console.log(basicUp);
 basic=basicUp;
 var basicDown = basic.toLowerCase();
-console.log(basicUp);
+console.log(basicDown);
+//08 Template
+// .split(""): une string--->en tableau
+//.split(" "); ---->mot/mot
+var word = "banan";
+var letters = word.split("");
+console.log(letters);
+var age = 27;
+var template = "I'm_years old";
+console.log(`I'm ${age} years old`);
+// la template utilise les 
+//bonus
+var str = 'texte de chaînes de caractères';
+//var res2 = str.substring(2);
+var res1 = str.substring(8, 15);
+console.log(res1);
+var guill = "texte de chaînes de caractères";
+console.log(str, guill);
+
