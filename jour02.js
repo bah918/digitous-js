@@ -28,3 +28,21 @@ console.log(bis < test);//-----false
 console.log(bis <= test);//------false
 console.log(bis === test);//----false
 console.log(bis == test);//----false
+// 06 condition
+var limit = 50;
+var score = 64;
+if(score >= limit){
+    console.log("ok good !");
+}else{
+    console.log("Oh nooo...");
+}
+// OK goog
+// en changent la valeur du resultat
+var limit = 64;
+var score = 50;
+if(score >= limit){
+    console.log("ok good !");
+}else{
+    console.log("Oh nooo...");
+}
+// oh nooo..
