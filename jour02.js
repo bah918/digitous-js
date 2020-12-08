@@ -75,3 +75,20 @@ var min = 1;
      console.log("So close...");
      console.log("randum est :", +randum);
  }
+ // Bonus 2
+ var month = "January";
+ switch("January"){
+     case ("January")
+     case ("Febeuary")
+     case ("March")
+     case ("April")
+     case ("May")
+     case ("June")
+     case ("July")
+     case ("August")
+     case ("September")
+     case ("Octember")
+     case ("October")
+     case ("November")
+     case ("December")
+ }
