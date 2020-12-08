@@ -20,3 +20,11 @@ console.log( test + bis);
 console.log(test - bis);
 console.log(test / bis)
 console.log(test % bis);
+var test = 143;
+var bis = 219;
+console.log(bis > test);//---->true;
+console.log(bis >= test);//---->true
+console.log(bis < test);//-----false
+console.log(bis <= test);//------false
+console.log(bis === test);//----false
+console.log(bis == test);//----false
