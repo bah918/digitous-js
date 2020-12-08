@@ -62,6 +62,16 @@ if(score >= limit && password.length > 5){
 else {
         (score >= limit || password.length > 5)
             console.log("Nothing is good");
-        
-        
 }
+// Bonus 
+
+var max = 6;
+var min = 1;
+ var randum = Math.floor(Math.random() * (6 - 1 + 1) + 1);
+ if (randum == 6){
+     console.log("Yes I win !");
+     console.log("randum est :", +randum);
+ } else {
+     console.log("So close...");
+     console.log("randum est :", +randum);
+ }
