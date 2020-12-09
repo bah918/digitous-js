@@ -76,19 +76,27 @@ var min = 1;
      console.log("randum est :", +randum);
  }
  // Bonus 2
- var month = "January";
- switch("January"){
-     case ("January")
-     case ("Febeuary")
-     case ("March")
-     case ("April")
-     case ("May")
-     case ("June")
-     case ("July")
-     case ("August")
-     case ("September")
-     case ("Octember")
-     case ("October")
-     case ("November")
-     case ("December")
- }
+ var mont = prompt("quel moi");
+ 
+switch(mont){
+    case "december":
+    case  "january":
+    case  "february":
+        console.log("nous sommes en hiver")
+        break;
+    case  "march":
+    case  "april":
+    case  "may":
+        console.log("nous sommes en printemp")
+        break;
+    case  "june":
+    case  "july":
+    case "august":
+        console.log("nous sommes en été")
+        break;
+    case "september":
+    case "october":
+    case "november":
+        console.log("nous sommes en l'automne")
+        break;
+}
