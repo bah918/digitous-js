@@ -32,7 +32,17 @@ for(var i=0; i<=limit; i++){
         console.log("total est= " +total);
     }
 }
-
+//06 Reverse
+var sentence = "Hello Konexio !";
+ var tab = [];
+for(var i =1; i<=sentence.length; i++){
+        tab += sentence.charAt(sentence.length-i);
+        if (i===sentence.length){
+            console.log(tab);
+        }
+       
+           
+}
 
 
 
