@@ -22,7 +22,16 @@ number.reverse();
 console.log(number);
 number=number.sort((a,b)=> a-b);
 console.log(number);
-
+//05 Boucle
+var total = 0;
+var limit = 10;
+for(var i=0; i<=limit; i++){
+     total=i+1;
+    if(i===limit){
+        total=i;
+        console.log("total est= " +total);
+    }
+}
 
 
 
