@@ -56,13 +56,41 @@ Compare(94 , 94);
 
 // 05 - Add Up
 function addUp(num){
-    
-    for(var i = 0; i<=num; i++){
-          if(i===num){
-              num=num+i;
-              console.log(num);
+    var nouv = 0;
+    for(var i = 1; i<=6; i++){
+         var nouv = nouv + num;
+          if(i===6){
+              num=nouv+i;
+              console.log(`${num}`);
+              break;
           }
     }
     
 }
 addUp(12);
+
+// 06-Time
+var h = 0;
+var m = 0;
+var s = 0;
+function format (num){
+    for (var i = num; i >= 0; i--){
+        if(i===3600){
+           h = h + 1;
+           num = num - i;
+           for(var i=num; i >= 0; i--){
+                if(i===60){
+                    num = num - i;
+                    m = m + 1;
+                    s=num + s
+                }
+                
+                
+                
+           }
+        }
+    }
+    console.log(`${h} h : ${m} m : ${s} s`);
+}
+
+format(3700);
