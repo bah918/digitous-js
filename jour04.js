@@ -56,10 +56,13 @@ Compare(94 , 94);
 
 // 05 - Add Up
 function addUp(num){
-    var i = 0;
-    while(i!=num){
-          i++;
+    
+    for(var i = 0; i<=num; i++){
+          if(i===num){
+              num=num+i;
+              console.log(num);
+          }
     }
+    
 }
-
 addUp(12);
