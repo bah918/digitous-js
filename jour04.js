@@ -85,8 +85,6 @@ function format (num){
                     s=num + s
                 }
                 
-                
-                
            }
         }
     }
